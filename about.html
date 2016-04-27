@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+    margin-bottom: 0;
+  }
+  
+  .carousel-inner > .item > img {
+	  margin: 0 auto;
+  }
+  
+  .affix {
+	  top: 0;
+	  width: 100%;
+	  z-index: 9999;
+  }
+  
+  footer {
+	  background-color: #eee;
+	  padding: 20px;
+  }
+  </style>
+  <title>About Us</title>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Strawberry Mitten</h1>
+    <p>Online Store</p>
+  </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Strawberry Mitten</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li class="active"><a href="about.html">About Us</a></li>
+        <!--<li><a href="#">Shirts</a></li>
+        <li><a href="#">Dresses</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+$(".navbar").affix({offset: {top: $(".jumbotron").outerHeight(true)}});
+</script>
+
+<!-- Page Contents -->
+<div class="container">
+  <h2>About Us</h2>
+  <p>We are the best online store around.</p>
+  <p>Shop with us and find out why!</p>
+  
+  <h2>Our Team</h2>
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 1</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 1 info.</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 2</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 2 info.</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 3</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 3 info.</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 4</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 4 info.</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 5</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 5 info.</div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 6</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 6 info.</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4 text-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">User 7</div>
+        <div class="panel-body"><img src="http://placehold.it/400x350" alt="Image" class="img-responsive" style="width: 100%;"></div>
+        <div class="panel-footer">User 7 info.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page Footer -->
+<footer class="container-fluid text-center">
+  <p>&copy; 2016 Strawberry Mitten</p>
+</footer>
+
+</body>
+</html>
