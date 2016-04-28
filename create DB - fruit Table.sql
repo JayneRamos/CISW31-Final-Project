@@ -1,6 +1,6 @@
-CREATE DATABASE strawberrymitten
+CREATE DATABASE strawberrymitten;
 
-USE strawberrymitten
+USE strawberrymitten;
 
 CREATE TABLE fruits 
 (plu char(4) not null primary key, 
