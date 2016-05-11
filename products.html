@@ -5,156 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <style>
-  .jumbotron {
-    margin-bottom: 0;
-  }
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
-  .carousel-inner > .item > img {
-	  margin: 0 auto;
-  }
-  
-  .affix {
-	  top: 0;
-	  width: 100%;
-	  z-index: 9999;
-  }
-  
-  footer {
-	  background-color: #eee;
-	  padding: 20px;
-  }
-  </style>
-  <title>Products</title>
+  <title>products</title>
+<link href="main.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body background="images/exotic-fruits.jpg">
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Strawberry Mitten</h1>
-    <p>Online Store</p>
-  </div>
+<div class="jumbotron"><h1>Exotic Fruit</h1>
+  <h2> Online Store</h2>
 </div>
 
-<!-- Navigation -->
+<div align="center">
+  <!-- Navigation -->
+</div>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Strawberry Mitten</a>
+      <div align="center">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
     </div>
     <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="products.html">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <!--<li><a href="#">Shirts</a></li>
+      <div align="center">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <!--<li><a href="#">Shirts</a></li>
         <li><a href="#">Dresses</a></li>-->
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-      </ul>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
-<script>
+<div align="center">
+  <script>
 $(".navbar").affix({offset: {top: $(".jumbotron").outerHeight(true)}});
 </script>
-
-<!-- Page Contents -->
+  
+  <!-- Page Contents -->
+</div>
 <div class="container">
-  <h2>Products</h2>
-  <div class="row">
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 1</span><br>
-        $1.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 2</span><br>
-        $2.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 3</span><br>
-        $4.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 4</span><br>
-        $5.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 5</span><br>
-        $7.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 6</span><br>
-        $9.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 7</span><br>
-        $19.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 8</span><br>
-        $29.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
-    
-    <div class="col-sm-4 text-center">
-      <img src="http://placehold.it/400x350" alt="Product" class="img-responsive" style="width: 100%;">
-      <p>
-        <span style="font-weight: bold;">Product 9</span><br>
-        $29.99<br>
-        <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
-      </p>
-    </div>
+<h2 align="center">Image</h2>
+ <div align="center"><img src="images/fruits/star-fruit.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/soursop.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/santol.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/pinya.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/pakwan watermelon.JPG" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/muntingia.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/mangosteen.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/lanzones.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/langka.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/jocote spanish plum.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   <img src="images/fruits/java plum.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200
+ ">
+   <img src="images/fruits/jackfruit.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="200">
+   
+   
+   </span>
+   
+   
+ </div>
+</div>
+</div>
   </div>
 </div>
 
