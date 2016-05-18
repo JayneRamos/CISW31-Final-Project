@@ -13,7 +13,7 @@ VALUES("104", "Alejandro Navia", "5500 University Parkway", "San Bernardino", "A
 INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_email, cust_password, administrator)
 VALUES("105", "Junko Fujioka", "900 University Ave.", "Riverside", "HI", " 99521 ", "jfujioka@student.mtsac.edu", "pass105", 1);
 INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_email, cust_password, administrator)
-VALUES("106", "Steven Desa", "1950 Third St", "La Verne", "MA", "98710", "stevendesa@gmail.com", "pass106", 1);
+VALUES("106", "Steven Desa", "1950 Third St", "La Verne", "MA", "98710", "stevenjdesa@gmail.com", "pass106", 1);
 INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_email, cust_password, administrator)
 VALUES("107", "Jayne Ramos", "3801 W Temple Ave", "Pomona", "IN", "91768", "jramos125@student.mtsac.edu", "pass107", 1);
 INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_email, cust_password, administrator)
@@ -50,7 +50,7 @@ VALUES("P009", "Santol", 5.25, "Sweet and Sour", "Popular summer fruit.", 1000, 
 INSERT INTO products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P010", "Starfruit", 2.50, "Sweet & Tart", "Star-shaped fruit.", 1000, image/star-fruit.jpg);
 INSERT INTO products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
-VALUES("P011", "Suha-Pomelo", 3.25, "Mild and Sweet", "Largest of all citrus fruits.", 1000, image/suha-Pomelo.jpg);
+VALUES("P011", "Suha-Pomelo", 3.25, "Mild and Sweet", "Largest of all citrus fruits.", 1000, image/suhapomelo.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P012", "Strawberry", 3.00, "From California", "The fruit that started it all!", 1000, image/strawberry.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
@@ -76,7 +76,7 @@ VALUES("P022", "Guyabano", 4.25, "Sweet and Delicious", "Tastes like a combinati
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P023", "Java Plum", 2.75, "Mildly Sour and Astringent", "Possible health benefits include lowering blood sugars.", 1000 , image/javaplum.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
-VALUES("P024", "Jocote Spanish Plum", 2.00, "Small and Very Sweet", "A genus of flowering plants in the cashew family.", 1000 , image/jocote spanish plum.jpg);
+VALUES("P024", "Jocote Spanish Plum", 2.00, "Small and Very Sweet", "A genus of flowering plants in the cashew family.", 1000 , image/jocotespanishplum.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P025", "Langka", 5.75, "Unique Fruity Flavor", "Species of tree in the mulberry or fig family.", 1000 , image/langka.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
@@ -84,7 +84,7 @@ VALUES("P026", "Lanzones", 5.25, "Sweet and Succulent", " 'Fruit for the Gods,' 
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P027", "Muntingia", 4.75, "Sweet and Sticky", "Birds and bats love this cherry tree.", 1000 , image/muntingia.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
-VALUES("P028", "Pakwan", 7.50, "Sweet and Juicy", "The salted seeds are an addictive snack.", 1000 , image/pakwan watermelon.JPG);
+VALUES("P028", "Pakwan", 7.50, "Sweet and Juicy", "The salted seeds are an addictive snack.", 1000 , image/pakwanwatermelon.JPG);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P029", "Pinya", 8.00, "Sweet and Tart", "Is nothing short of one pretty sweet superfood.", 1000 , image/pinya.jpg);
 INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
