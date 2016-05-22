@@ -1,0 +1,105 @@
+/*
+	Primary css for Strawberry Mittens website
+*/
+
+
+	/* Default Background image placement */
+
+.siteimage{ 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+	/*	Keeps the footer anchored to the bottom of each page.
+		Controls the flow and properties of the footer section.	*/
+
+.foot{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   background: #e8031b;	/* Hexidecimal code for background color Strawberry-Red */
+   color: #ffffff;
+   font-size: 9pt;
+   text-align:center;
+   font-family: arial, verdana, sans-serif;
+   font-weight: bold;
+}
+
+	/* Reserve viewing area for Company logo in the header area */
+
+.banner{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 568px;
+	boarder: 0px;
+}
+
+	/* Privacy statement settings*/
+
+div.privacy{
+	position: relative;
+	vertical-align: middle;
+	left: 25%;
+	right: 25%;
+	min-height: 75px;
+	margin: 25px;
+}
+
+	/* Default menu settings*/
+
+.menu{
+	color: #ffffff;		/* Hexidecimal code for text color white */
+	font-size: 12pt;
+	text-align: center;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+}
+
+td.menu{
+	background: #e8031b;	/* Hexidecimal code for background color Strawberry-Red */
+}
+
+	/* Default h1 format */
+
+h1{
+	color: #e8031b;		/* Hexidecimal code for the text color Strawberry-Red */
+	font-size: 24pt;
+	text-align: center;
+	font-family: arial, verdana, san-serif;
+}
+
+	/* Default paragraph layout */
+
+p{
+	color: #000000;		/* Hexidecimal code for the text color black */
+	font-size: 12pt;
+	text-align: justify;
+	font-family: arial, verdana, san-serif;
+}
+
+div.content{
+	margin-left: 20%;
+	margin-right:20%;
+}
+
+	/* Default footer settings */
+
+p.foot{
+	background: #e8031b;	/* Hexidecimal code for background color Strawberry-Red */
+	color: #ffffff;
+	font-size: 9pt;
+	text-align:center;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+}
+
+	/* Default internal/external links settings */
+
+a:link, a:visited, a:active{
+	color: #ffffff;		/* Hexidecimal code link colors White */
+}
