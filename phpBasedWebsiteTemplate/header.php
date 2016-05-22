@@ -58,7 +58,7 @@ winslide.focus()
 		</td>
 		<td width="25%">
 			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu">Product</span>
+			<span class="menu"><a href=products.php>Products</a></span>
 		</td>
 		<td width="25%">
 			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
@@ -66,7 +66,7 @@ winslide.focus()
 		</td>
 		<td width="25%">
 			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu">Shopping Cart</span>
+			<span class="menu"><a href=cart.php>Shopping Cart</a></span>
 		</td>
 	</tr>
 </table>
