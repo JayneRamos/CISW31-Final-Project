@@ -3,9 +3,10 @@
 ?>
   <!-- page content -->
   <div class="content">
-  	<p>
-  		Welcome to the home of Strawberry Mitte.
-  		Please take some time to get to know us.
+  	
+  	<h2>Welcome to the home of Strawberry Mitte.</h2>
+  	
+  	<p>	Please take some time to get to know us.
   	</p>
  	 <p>
  	 	We specialize in serving your business needs
