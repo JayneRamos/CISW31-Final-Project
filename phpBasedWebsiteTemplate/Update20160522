@@ -1,0 +1,12 @@
+This updated website template is based on chapter 5 of our text book. 
+
+Any changes to the header are made in the header.php file. This section creates all of the opening tags for HTML5. 
+Mets tags, css property links and JavaScripts are declared and defined in this section.
+
+Any changes to the footer are made in the footer.php file. All of the closing tags to HTML5 are created in this section.
+
+All other pages created for this website template must be .php format. Don't create additional HTML5 pages with
+<!-<html></html>, <head></head> or <body></body>  --!> tags. They are generated automatically for each page by the header.php
+and footer.php files. All other tags and classes can be used in this section. This page uses the /* <?php and ?> tags */.
+
+Styling, unless specific to that one instance should be made to main.css.
