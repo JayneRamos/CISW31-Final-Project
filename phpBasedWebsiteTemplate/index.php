@@ -4,7 +4,7 @@
   <!-- page content -->
   <div class="content">
   	
-  	<h2>Welcome to the home of Strawberry Mitte.</h2>
+  	<h2>Welcome to the home of Strawberry Mitten.</h2>
   	
   	<p>	Please take some time to get to know us.
   	</p>

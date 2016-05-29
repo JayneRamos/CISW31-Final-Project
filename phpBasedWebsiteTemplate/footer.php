@@ -1,6 +1,7 @@
 <!-- page footer -->
 
-<table class="foot" width=100% cellpadding=12 border=0>
+<div class = "foot">
+<table width=100% cellpadding=12 border=0>
 	<tr>
 		<td>
 			<p class="foot"></p>
@@ -8,6 +9,7 @@
 		</td>
 	</tr>
 </table>
+</div>
 
 </body>
 </html>

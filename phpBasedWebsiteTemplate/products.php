@@ -9,13 +9,13 @@
 
 
 
-	<!-- page content -->
+	<!-- page content --!>
   
 <div class="container">
-  <h2>Products</h2>
+  <h2>Products</h2><br />
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="Apple.jpg" alt="Product" width="250" height="180">
+      <img src="images/Apple.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Apple</span><br>
 		Red and Delicious<br />
@@ -26,7 +26,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="Atis.jpg" alt="Product" width="250" height="180">
+      <img src="images/Atis.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Atis</span><br>
 		Sweet and Creamy<br />
@@ -37,7 +37,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="avocado.jpg" alt="Product" width="220" height="180">
+      <img src="images/avocado.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Avocado</span><br>
 		Creamy and Delicious<br />
@@ -52,7 +52,7 @@
 
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="banana.jpg" alt="Product" width="220" height="180">
+      <img src="images/banana.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Banana</span><br>
         Chiquita Yellow<br />
@@ -63,7 +63,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="Bayabas.jpg" alt="Product" width="250" height="180">
+      <img src="images/Bayabas.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Bayabas</span><br>
 		Delicious and Nutritious<br />
@@ -74,7 +74,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="caimito.jpg" alt="Product" width="250" height="180">
+      <img src="images/caimito.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Caimito</span><br>
         Sweet and Delicious<br />
@@ -89,7 +89,7 @@
   
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="calamondin.jpg" alt="Product" width="250" height="180">
+      <img src="images/calamondin.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Calamondin</span><br>
         Very Refreshing<br />
@@ -100,7 +100,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="orange.jpg" alt="Product" width="250" height="180">
+      <img src="images/orange.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Cara Orange</span><br>
         Sweet and Delicious<br />
@@ -111,7 +111,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="chicosapodilla.jpg" alt="Product" width="250" height="180">
+      <img src="images/chicosapodilla.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Chico Sapodilla</span><br>
         Sweet and Pleasant<br />
@@ -126,7 +126,7 @@
   
 <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="coconut.jpg" alt="Product" width="250" height="180">
+      <img src="images/coconut.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Coconut</span><br>
 		Delicious and Versatile<br />
@@ -137,7 +137,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="durian.jpg" alt="Product" width="250" height="180">
+      <img src="images/durian.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Durian</span><br>
 		Unique Aroma<br />
@@ -148,7 +148,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="grapes.jpg" alt="Product" width="220" height="180">
+      <img src="images/grapes.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Grapes</span><br>
 		Green and Seedless<br />
@@ -164,7 +164,7 @@
   
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="guyabano.jpg" alt="Product" width="250" height="180">
+      <img src="images/guyabano.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Guyabano</span><br>
 		Sweet and Delicious<br />
@@ -175,7 +175,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="jackfruit.jpg" alt="Product" width="250" height="180">
+      <img src="images/jackfruit.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Jack Fruit</span><br>
 		Aromatic Flavor<br />
@@ -186,7 +186,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="javaplum.jpg" alt="Product" width="220" height="180">
+      <img src="images/javaplum.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Java Plum</span><br>
 		Mildly Sour and Astringent<br />
@@ -201,7 +201,7 @@
   
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="jocotespanishplum.jpg" alt="Product" width="250" height="180">
+      <img src="images/jocotespanishplum.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Jocote Spanish Plum</span><br>
 		Small and Very Sweet<br />
@@ -212,7 +212,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="langka.jpg" alt="Product" width="250" height="180">
+      <img src="images/langka.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Langka</span><br>
 		Unique Fruity Flavor<br />
@@ -223,7 +223,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="lanzones.jpg" alt="Product" width="220" height="180">
+      <img src="images/lanzones.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Lazones</span><br>
 		Sweet and Succulent<br />
@@ -238,7 +238,7 @@
 <br />
 <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="lucuma.jpg" alt="Product" width="250" height="180">
+      <img src="images/lucuma.jpg" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Lucuma</span><br>
 		Unique Flavor<br />
@@ -249,7 +249,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="mangga.jpg" alt="Product" width="250" height="180">
+      <img src="images/mangga.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Mangga</span><br>
 		Sweetest Fruit<br />
@@ -260,7 +260,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="mangosteen.jpg" alt="Product" width="220" height="180">
+      <img src="images/mangosteen.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Mangosteen</span><br>
 		Creamy and Sweet<br />
@@ -277,7 +277,7 @@
   
 <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="muntingia.jpg" alt="Product" width="250" height="180">
+      <img src="images/muntingia.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Muntingia</span><br>
 		Sweet and Sticky<br />
@@ -288,7 +288,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="pakwanwatermelon.jpg" alt="Product" width="250" height="180">
+      <img src="images/pakwanwatermelon.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Pakwan</span><br>
 		Sweet and Juicy<br />
@@ -299,7 +299,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="pinya.jpg" alt="Product" width="220" height="180">
+      <img src="images/pinya.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Pinya</span><br>
 		Sweet and Tart<br />
@@ -317,7 +317,7 @@
   
 <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="rambutan.jpg" alt="Product" width="250" height="180">
+      <img src="images/rambutan.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Rambutan</span><br>
 		Sweet and Juicy<br />
@@ -328,7 +328,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="santol.jpg" alt="Product" width="250" height="180">
+      <img src="images/santol.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Santol</span><br>
 		Sweet and Sour<br />
@@ -339,7 +339,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="soursop.jpg" alt="Product" width="220" height="180">
+      <img src="images/soursop.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Soursop</span><br>
 		Delicious and Sweet<br />
@@ -356,7 +356,7 @@
   
 <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="starfruit.jpg" alt="Product" width="250" height="180">
+      <img src="images/starfruit.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Starfruit</span><br>
 		Sweet and Tart<br />
@@ -367,7 +367,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="pakwanwatermelon.jpg" alt="Product" width="250" height="180">
+      <img src="images/strawberry.png" alt="Product" width="250" height="180">
       <p>
         <span style="font-weight: bold;">Strawberry</span><br>
 		From California<br />
@@ -378,7 +378,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="suhapomelo.jpg" alt="Product" width="220" height="180">
+      <img src="images/suhapomelo.png" alt="Product" width="220" height="180">
       <p>
         <span style="font-weight: bold;">Suha-Pomelo</span><br>
 		Mild and Sweet<br />
@@ -387,8 +387,9 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-</div>
-
+  </div>
+</div>  
+  
 
 
 <?php

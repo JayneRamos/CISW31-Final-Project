@@ -42,48 +42,31 @@ winslide.focus()
 	
 <!--  Internal and external links to css properties --!>
 	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<link rel="stylesheet" type="text/js" href="js/bootstrap.js">
+	<link rel="stylesheet" type="text/js" href="js/jquery.js">
 
 
 </head>
-<body class="siteimage" background = "images/straberry_mitten.jpg" width="100%">
-
-<!-- menu -->
-
-<table class="menu" width="100%" bgcolor="#e8031b" cellpadding="4" cellspacing="4">
-	<tr >
-		<td width="25%">
-			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu"><a href=index.php>Home</a></span>
-		</td>
-		<td width="25%">
-			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu"><a href=products.php>Products</a></span>
-		</td>
-		<td width="25%">
-			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu"><a href=aboutus.php>About Us</a></span>
-		</td>
-		<td width="25%">
-			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
-			<span class="menu"><a href=cart.php>Shopping Cart</a></span>
-		</td>
-	</tr>
-</table>
+<body class="siteimage" background = "images/original.png" width="100%">
 
 <!-- 
 	Page Header Spaceing. Reserves a visible area for the company logo  and slideshow 
 --!>
-
-<table width="100%" height="368">
-	<td width="55%"></td>
-	<td width="45%">
-	<a href="javascript:gotoshow()"><img src="food1.jpg" name="slide" border=0 width=300 height=275></a>
+<div>
+<table width="100%" height="208" background = "images/logo-banner2.png">
+	<td width="25%">
+	</td>
+	<td width="50%">
+	<a href="javascript:gotoshow()"><img src="food1.jpg" name="slide" border=0 width=292 height=208></a>
 		<script>
 		<!--
 
 		//configure the paths of the images, plus corresponding target links
-		slideshowimages("img/01.jpg","img/02.jpg","img/03.jpg","img/04.jpg","img/05.jpg","img/06.jpg","img/07.jpg","img/08.jpg")
+		slideshowimages("specials/01.png","specials/10.png","specials/05.png","specials/17.png","specials/05.png","specials/12.png","specials/25.png","specials/13.png")
 
 		//configure the speed of the slideshow, in miliseconds
 		var slideshowspeed=2000
@@ -106,4 +89,31 @@ winslide.focus()
 		//-->
 		</script>
 	</td>
+	<td width="25%">
+	</td>
 </table>
+</div>
+
+<!-- menu -->
+<div>
+<table class="menu" width="100%" bgcolor="#e8031b" cellpadding="4" cellspacing="4">
+	<tr >
+		<td width="25%" bgcolor="#e8031b">
+			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
+			<span class="menu"><a href=index.php>Home</a></span>
+		</td>
+		<td width="25%" bgcolor="#e8031b">
+			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
+			<span class="menu"><a href=products.php>Products</a></span>
+		</td>
+		<td width="25%" bgcolor="#e8031b">
+			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
+			<span class="menu"><a href=aboutus.php>About Us</a></span>
+		</td>
+		<td width="25%" bgcolor="#e8031b">
+			<img src="images/strawberriy-exotic-fruits.png" alt="" height="20" width="20" />
+			<span class="menu"><a href=cart.php>Shopping Cart</a></span>
+		</td>
+	</tr>
+</table>
+<div>
