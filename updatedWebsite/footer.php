@@ -5,7 +5,7 @@
 	<tr>
 		<td>
 			<p class="foot"></p>
-			<p class="foot">&copy; 2016 Strawberry Mitte. Please review our <a href=privacy.php>Privacy Policy</a></p>
+			<p class="foot">&copy; 2016 Strawberry Mitten. Please review our <a href=privacy.php>Privacy Policy</a></p>
 		</td>
 	</tr>
 </table>

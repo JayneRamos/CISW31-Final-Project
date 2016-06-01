@@ -164,7 +164,7 @@
   
   <div class="row">
     <div class="col-sm-4 text-center">
-      <img src="images/guyabano.png" alt="Product" width="250" height="180">
+      <img src="images/guyabano.png" alt="Product" width="250" height="150">
       <p>
         <span style="font-weight: bold;">Guyabano</span><br>
 		Sweet and Delicious<br />
@@ -175,7 +175,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="images/jackfruit.png" alt="Product" width="250" height="180">
+      <img src="images/jackfruit.png" alt="Product" width="230" height="180">
       <p>
         <span style="font-weight: bold;">Jack Fruit</span><br>
 		Aromatic Flavor<br />
@@ -339,7 +339,7 @@
     </div>
     
     <div class="col-sm-4 text-center">
-      <img src="images/soursop.png" alt="Product" width="220" height="180">
+      <img src="images/soursop.png" alt="Product" width="220" height="150">
       <p>
         <span style="font-weight: bold;">Soursop</span><br>
 		Delicious and Sweet<br />
