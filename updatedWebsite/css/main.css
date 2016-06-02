@@ -44,8 +44,19 @@
 .container{
 	position: relative;
 	width: 90%;
-	height: 500px;
+	height: 575px;
 	overflow: scroll;
+}
+
+.callCenter{
+	position: fixed;
+	right: 0;
+	margin-right: 45%;
+	bottom: 0;
+	width: 25%;
+	height: auto;
+	z-index: -1;
+
 }
 
 	/* Privacy statement settings*/
@@ -68,6 +79,7 @@ div.privacy{
 	font-family: arial, verdana, sans-serif;
 	font-weight: bold;
 	top: "209";
+	z-index: 25;
 }
 
 td.menu{
@@ -81,12 +93,21 @@ h1{
 	font-size: 24pt;
 	text-align: center;
 	font-family: arial, verdana, san-serif;
+	text-shadow: 2px 2px #ff0000;
 }
 
 h2{
 	color: #e8031b;		/* Hexidecimal code for the text color Strawberry-Red */
 	text-align: center;
 	font-family: arial, verdana, san-serif;
+	text-shadow: 1px 1px #000000;
+}
+
+h3{
+	color: #e8031b;		/* Hexidecimal code for the text color Strawberry-Red */
+	text-align: left;
+	font-family: arial, verdana, san-serif;
+	text-shadow: 1px 1px #000000;
 }
 
 	/* Default paragraph layout */
@@ -118,8 +139,22 @@ div.right{
 	right: 0;
 }
 
+.err
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 12px;
+	color: #e8031b;
+}
+
+label
+{
+	font-family : Arial, Helvetica, sans-serif;
+	src: url(fonts/monofont.ttf);
+	font-size : 12px; 
+}
+
 	/* Default internal/external links settings */
 
 a:link, a:visited, a:active{
-	color: #ffffff;		/* Hexidecimal code link colors White */
+	color: #000000;		/* Hexidecimal code link colors White */
 }
