@@ -29,4 +29,10 @@ function user_admin_level() {
   else
     return true;
 }
+
+function end_session() {
+  // Destroy the current session.
+  unset($_SESSION);
+  session_destroy();
+}
 ?>
