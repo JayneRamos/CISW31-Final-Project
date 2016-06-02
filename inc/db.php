@@ -1,7 +1,7 @@
 <?php
 function connect_db() {
   // Connect to database and return connection object.
-  $res = new mysqli("localhost", "user", "pass", "strawberrymitten");
+  $res = new mysqli("localhost", "mitten", "strawberry", "strawberrymitten");
   if(!$res)
     return false;
   $res->autocommit(TRUE);
