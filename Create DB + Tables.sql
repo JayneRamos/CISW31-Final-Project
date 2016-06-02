@@ -15,7 +15,7 @@ CREATE TABLE Customers
   cust_zip      char(10)  NOT NULL ,
   cust_email    char(255) NOT NULL ,
   cust_password char(64)  NOT NULL ,
-  administration tinyint   NOT NULL
+  administrator tinyint   NOT NULL
 );
 
 -- -----------------------
