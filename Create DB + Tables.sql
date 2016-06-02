@@ -1,6 +1,6 @@
 ﻿CREATE DATABASE strawberrymitten;
 
-USE DATABASE strawberrymitten;
+USE strawberrymitten;
 
 -- ----------------------
 -- Create Customers table
@@ -27,7 +27,7 @@ CREATE TABLE OrderItems
   order_item int           NOT NULL ,
   plu_id     char(10)      NOT NULL ,
   quantity   int           NOT NULL ,
-  prod_price decimal(8,2)  NOT NULL 
+  prod_price decimal(8,2)  NOT NULL
 );
 
 
@@ -38,7 +38,7 @@ CREATE TABLE Orders
 (
   order_num  int      NOT NULL ,
   order_date datetime NOT NULL ,
-  cust_id    char(10) NOT NULL 
+  cust_id    char(10) NOT NULL
 );
 
 -- ---------------------
@@ -49,7 +49,7 @@ CREATE TABLE Products
   plu_id    	char(4)      NOT NULL ,
   prod_name  	char(25)     NOT NULL ,
   prod_price 	decimal(8,2) NOT NULL ,
-  prod_desc  	text         NULL , 
+  prod_desc  	text         NULL ,
   prod_notes	text		     NULL ,
   prod_onhand tinyint	   	 NULL ,
   prod_image  char(30)     NOT NULL
