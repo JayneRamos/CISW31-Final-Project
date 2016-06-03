@@ -45,11 +45,11 @@ INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_
 VALUES("P007", "Mangosteen", 6.50, "Creamy and Sweet", "Unique appearance and flavor.", 1000, "image/mangosteen.png");
 INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P008", "Rambutan", 4.75, "Sweet and Juicy", "Energy-giving fruit.", 1000, "image/rambutan.png");
-INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P009", "Santol", 5.25, "Sweet and Sour", "Popular summer fruit.", 1000, "image/santol.png");
-INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P010", "Starfruit", 2.50, "Sweet & Tart", "Star-shaped fruit.", 1000, "image/star-fruit.png");
-INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P011", "Suha-Pomelo", 3.25, "Mild and Sweet", "Largest of all citrus fruits.", 1000, "image/suhapomelo.png");
 INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P012", "Strawberry", 3.00, "From California", "The fruit that started it all!", 1000, "image/strawberry.png");
