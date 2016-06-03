@@ -29,65 +29,65 @@ VALUES("110", "Anthony Coe", "301 Platt Boulevard,", "Upland", "FL", "91837", "a
 -- Populate Products table
 -- -----------------------
 
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P001", "Atis", 2.75, "Sweet and Creamy", "Also known as Sugar Apple.", 1000, "image/Atis.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P002", "Durian", 8.25, "Unique Aroma", "King of all tropical fruits.", 1000, "image/durian.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P003", "Jackfruit", 1.50, "Aromatic Flavor", "World's largest tree-born fruit.", 1000, "image/jackfruit.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P004", "Caimito", 3.50, "Sweet and Delicious", "Also known as Star Apple.", 1000, "image/caimito.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P005", "Calamondin", 1.25, "Very Refreshing", "Perfect for morning juice.", 1000, "image/calamondin.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P006", "Mangga", 7.75, "Sweetest Fruit", "National fruit of the Philippines.", 1000, "image/Mangga.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P007", "Mangosteen", 6.50, "Creamy and Sweet", "Unique appearance and flavor.", 1000, "image/mangosteen.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P008", "Rambutan", 4.75, "Sweet and Juicy", "Energy-giving fruit.", 1000, "image/rambutan.png");
-INSERT INTO products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P009", "Santol", 5.25, "Sweet and Sour", "Popular summer fruit.", 1000, "image/santol.png");
-INSERT INTO products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P010", "Starfruit", 2.50, "Sweet & Tart", "Star-shaped fruit.", 1000, "image/star-fruit.png");
-INSERT INTO products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P011", "Suha-Pomelo", 3.25, "Mild and Sweet", "Largest of all citrus fruits.", 1000, "image/suhapomelo.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P012", "Strawberry", 3.00, "From California", "The fruit that started it all!", 1000, "image/strawberry.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P013", "Banana", 1.50, "Chiquita Yellow", "One of the healthiest fruits.", 1000, "image/banana.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P014", "Apple", 1.00, "Red and Delicious", "Extra-large  variety gaining popularity.", 1000, "image/apple.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P015", "Cara Orange", 0.80, "Sweet and Delicious", "Rosy fleshed and won't overripen on the tree.", 1000, "image/orange.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P016", "Grapes", 2.00, "Green and Seedless", "Larry Itilong's rebel fruit!", 1000 , "image/grapes.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P017", "Lucuma", 4.50, "Unique Flavor", "Sweet Gold of the Incas", 1000 , "image/Lucuma.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P018", "Avocado", 2.50, "Creamy and Delicious", "Packed with nutrients and is a 'good fat'.", 1000 , "image/avocado.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P019", "Bayabas", 5.75, "Delicious and Nutritious", "The bark and leaves are used for herbal medicine.", 1000 , "image/bababas.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P020", "Chico Sapodilla", 6.50, "Sweet and Pleasant", "Interesting and desirable tropical fruit.", 1000 , "image/chico sapodilla.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P021", "Coconut", 3.25, "Delicious and Versatile", "Truly remarkable food and medicine.", 1000 , "image/coconut.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P022", "Guyabano", 4.25, "Sweet and Delicious", "Tastes like a combination of strawberry, pineapple, coconut and banana.", 1000 , "image/guyabano.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P023", "Java Plum", 2.75, "Mildly Sour and Astringent", "Possible health benefits include lowering blood sugars.", 1000 , "image/javaplum.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P024", "Jocote Spanish Plum", 2.00, "Small and Very Sweet", "A genus of flowering plants in the cashew family.", 1000 , "image/jocotespanishplum.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P025", "Langka", 5.75, "Unique Fruity Flavor", "Species of tree in the mulberry or fig family.", 1000 , "image/langka.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P026", "Lanzones", 5.25, "Sweet and Succulent", " 'Fruit for the Gods,' with its very own Lanzones Festival!", 1000 , "image/lanzones.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P027", "Muntingia", 4.75, "Sweet and Sticky", "Birds and bats love this cherry tree.", 1000 , "image/muntingia.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P028", "Pakwan", 7.50, "Sweet and Juicy", "The salted seeds are an addictive snack.", 1000 , "image/pakwanwatermelon.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P029", "Pinya", 8.00, "Sweet and Tart", "Is nothing short of one pretty sweet superfood.", 1000 , "image/pinya.png");
-INSERT INTO Products(prod_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
+INSERT INTO Products(plu_id, prod_name, prod_price, prod_desc, prod_notes, prod_onhand, prod_image)
 VALUES("P030", "Soursop", 4.50, "Delicious and Sweet", "Believed to be a 'natural cancer cell killer.' ", 1000 , "image/soursop.png");
 
 
@@ -102,7 +102,7 @@ VALUES(20005, "2016-05-01", "101");
 -- -------------------------
 -- Populate OrderItems table
 -- -------------------------
-INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, prod_price)
+INSERT INTO OrderItems(order_num, order_item, plu_id, quantity, prod_price)
 VALUES(20005, 1, "P012", 5, 3.00);
-INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, prod_price)
+INSERT INTO OrderItems(order_num, order_item, plu_id, quantity, prod_price)
 VALUES(20005, 2, "P002", 7, 1.50);
