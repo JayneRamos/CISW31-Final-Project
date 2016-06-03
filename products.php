@@ -1,18 +1,41 @@
 <?php
-  
+
 
 	require('header.php');
+  require('inc/products.php');
 
 
 ?>
-  
 
 
 
-	<!-- page content --!>
-  
+
+	<!-- page content -->
+
 <div class="container">
   <h2>Products</h2><br />
+<?php
+  $products = get_products();
+  $item = 0;
+
+  foreach($products as $product) {
+    if($item == 0) {
+      echo "<div class=\"row\">\n";
+    }
+    echo "<div class=\"col-sm-4 text-center\">\n";
+    echo "<img src=\"".$product['prod_image']."\" alt=\"Product\" width=\"250\" height=\"180\">\n";
+    echo "<p><span style=\"font-weight: bold;\">".htmlspecialchars($product['prod_name'])."</span><br>\n";
+    echo $product['prod_desc']."<br>\n".$product['prod_notes']."<br>\n";
+    echo "<b>$".$product['prod_price']."</b><br>\n";
+    echo "<button type=\"button\" class=\"btn btn-primary btn-md\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Add to Cart</button>\n";
+    echo "</p>\n</div>\n";
+    $item++;
+    if($item == 3) {
+      echo "</div>\n"
+      $item = 0;
+    }
+  }
+?>
   <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/Apple.png" alt="Product" width="250" height="180">
@@ -24,7 +47,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/Atis.png" alt="Product" width="250" height="180">
       <p>
@@ -35,7 +58,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/avocado.png" alt="Product" width="220" height="180">
       <p>
@@ -47,7 +70,7 @@
       </p>
     </div>
   </div>
-  
+
 <br />
 
   <div class="row">
@@ -61,7 +84,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/Bayabas.png" alt="Product" width="250" height="180">
       <p>
@@ -72,7 +95,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/caimito.png" alt="Product" width="250" height="180">
       <p>
@@ -84,9 +107,9 @@
       </p>
     </div>
   </div>
-  
-<br />  
-  
+
+<br />
+
   <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/calamondin.png" alt="Product" width="250" height="180">
@@ -98,7 +121,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/orange.png" alt="Product" width="250" height="180">
       <p>
@@ -109,7 +132,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/chicosapodilla.png" alt="Product" width="250" height="180">
       <p>
@@ -123,7 +146,7 @@
   </div>
 
 <br />
-  
+
 <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/coconut.png" alt="Product" width="250" height="180">
@@ -135,7 +158,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/durian.png" alt="Product" width="250" height="180">
       <p>
@@ -146,7 +169,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/grapes.png" alt="Product" width="220" height="180">
       <p>
@@ -158,10 +181,10 @@
       </p>
     </div>
   </div>
-  
+
 <br />
 
-  
+
   <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/guyabano.png" alt="Product" width="250" height="150">
@@ -173,7 +196,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/jackfruit.png" alt="Product" width="230" height="180">
       <p>
@@ -184,7 +207,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/javaplum.png" alt="Product" width="220" height="180">
       <p>
@@ -196,9 +219,9 @@
       </p>
     </div>
   </div>
-  
-<br />  
-  
+
+<br />
+
   <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/jocotespanishplum.png" alt="Product" width="250" height="180">
@@ -210,7 +233,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/langka.png" alt="Product" width="250" height="180">
       <p>
@@ -221,7 +244,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/lanzones.png" alt="Product" width="220" height="180">
       <p>
@@ -233,8 +256,8 @@
       </p>
     </div>
   </div>
-  
-  
+
+
 <br />
 <div class="row">
     <div class="col-sm-4 text-center">
@@ -247,7 +270,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/mangga.png" alt="Product" width="250" height="180">
       <p>
@@ -258,7 +281,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/mangosteen.png" alt="Product" width="220" height="180">
       <p>
@@ -270,11 +293,11 @@
       </p>
     </div>
   </div>
-  
-  
+
+
  <br />
-  
-  
+
+
 <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/muntingia.png" alt="Product" width="250" height="180">
@@ -286,7 +309,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/pakwanwatermelon.png" alt="Product" width="250" height="180">
       <p>
@@ -297,7 +320,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/pinya.png" alt="Product" width="220" height="180">
       <p>
@@ -311,10 +334,10 @@
   </div>
 
 
-    
+
  <br />
-  
-  
+
+
 <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/rambutan.png" alt="Product" width="250" height="180">
@@ -326,7 +349,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/santol.png" alt="Product" width="250" height="180">
       <p>
@@ -337,7 +360,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/soursop.png" alt="Product" width="220" height="150">
       <p>
@@ -349,11 +372,11 @@
       </p>
     </div>
   </div>
-  
-    
+
+
  <br />
-  
-  
+
+
 <div class="row">
     <div class="col-sm-4 text-center">
       <img src="images/starfruit.png" alt="Product" width="250" height="180">
@@ -365,7 +388,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/strawberry.png" alt="Product" width="250" height="180">
       <p>
@@ -376,7 +399,7 @@
         <button type="button" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
       </p>
     </div>
-    
+
     <div class="col-sm-4 text-center">
       <img src="images/suhapomelo.png" alt="Product" width="220" height="180">
       <p>
@@ -388,12 +411,12 @@
       </p>
     </div>
   </div>
-</div>  
-  
+</div>
+
 
 
 <?php
-  
+
 
 	require('footer.php');
 
