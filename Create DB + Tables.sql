@@ -46,7 +46,7 @@ CREATE TABLE Orders
 -- ---------------------
 CREATE TABLE Products
 (
-  prod_id    	char(4)      NOT NULL ,
+  plu_id    	char(4)      NOT NULL ,
   prod_name  	char(25)     NOT NULL ,
   prod_price 	decimal(8,2) NOT NULL ,
   prod_desc  	text         NULL ,
