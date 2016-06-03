@@ -31,7 +31,7 @@
     echo "</p>\n</div>\n";
     $item++;
     if($item == 3) {
-      echo "</div>\n"
+      echo "</div>\n";
       $item = 0;
     }
   }
