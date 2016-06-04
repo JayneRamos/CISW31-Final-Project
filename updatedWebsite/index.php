@@ -2,16 +2,9 @@
   require('header.php');
 ?>
   <!-- page content -->
-  <div class="content">
+  <div class="homepage">
   	
-  	<h2>Welcome to the home of Strawberry Mitten.</h2>
-  	
-  	<p>	Please take some time to get to know us.
-  	</p>
- 	 <p>
- 	 	We specialize in serving your business needs
-  		and hope to hear from you soon!
-  	</p>
+  	<img src="images/Balinese-Fruit_Stand-P2.jpg" alt="fruit stand" align = "middle" width = "100%" height = "100%"/>
   </div>
 <?php
   require('footer.php');

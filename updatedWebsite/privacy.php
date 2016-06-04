@@ -4,7 +4,7 @@
 
 <h1>PRIVACY POLICY FOR STRAWBERRY MITTEN EXOTIC FRUIT</h1>
 
-<div class="content">
+<div class="container">
 	<h2>Our Commitment to Privacy</h2>
 		<p> Your privacy is important to us. To better protect your privacy we provide this notice explaining our online 
 		information practices and the choices you can make about the way your information is collected and used. 
