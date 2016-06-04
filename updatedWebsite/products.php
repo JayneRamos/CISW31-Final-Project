@@ -11,7 +11,7 @@
 
 	<!-- page content --!>
   
-<div class="container">
+<div class="products">
   <h2>Products</h2><br />
   <div class="row">
     <div class="col-sm-4 text-center">
