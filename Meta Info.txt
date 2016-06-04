@@ -1,0 +1,4 @@
+<Meta name="Developers" content="Alejandro Navia, Junko Fujioka, Steven Desa, Jayne Ramos, Oscar Campos, Tommy Ocampo, Anthony Coe">
+<Meta name="project" content="Group #2 Final Project">
+<Meta name="date" content="June 7, 2016">
+<Meta name="description" content="Create a Website with a Shopping Cart that connects to a Database.">
