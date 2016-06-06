@@ -71,6 +71,10 @@
     width: 80%;
 }
 
+.seal{
+	margin-left: 45%;
+}
+
 .callCenter{
 	position: fixed;
 	right: 0;
